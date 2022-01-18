@@ -1,0 +1,7 @@
+﻿[*.cs]
+
+# IDE1006: Estilos de nombres
+dotnet_diagnostic.IDE1006.severity = none
+
+# CS1762: Se creó una referencia al ensamblado de interoperabilidad 'Interop.ADODB, Version=6.0.0.0, Culture=neutral, PublicKeyToken=null' incrustado debido a una referencia indirecta a ese ensamblado creado por el ensamblado 'CapaNegocios, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. Puede cambiar la propiedad 'Incrustar tipos de interoperabilidad' en cualquiera de los ensamblados.
+dotnet_diagnostic.CS1762.severity = none

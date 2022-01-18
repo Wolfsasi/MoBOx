@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.OleDb" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CapaDatos\CapaDatos.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Interop.ADODB">
+      <HintPath>..\CapaDatos\obj\Debug\netstandard2.0\Interop.ADODB.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
